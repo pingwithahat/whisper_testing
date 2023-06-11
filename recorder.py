@@ -1,6 +1,7 @@
 import sounddevice as sd
 import wavio as wv
 import datetime
+import multiprocessing
 
 freq = 44100
 duration = 5 # in seconds
